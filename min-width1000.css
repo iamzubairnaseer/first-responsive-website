@@ -1,0 +1,148 @@
+@media screen and (min-width:1000px){
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .header{
+        display: flex;
+        background-color: cornsilk;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .header h1{
+        margin: 0;
+        margin-left: 50px;
+    }
+
+    nav{
+        width: 50%;
+        margin: auto;
+    }
+    nav ul{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        border: 1px solid black;
+        padding: 5px 3px;
+    }
+
+    footer{
+        background-color: wheat;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    footer ul{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+        margin: 0;
+    }
+
+    footer ul li a{
+        color: white;
+        font-size: 25px;
+    }
+
+    .header-image{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://images.pexels.com/photos/239332/pexels-photo-239332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        background-size: cover;
+        background-position: center top;
+        height: 450px;
+    }
+
+    .heading{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: white;
+    }
+
+    .heading h1{
+        font-size: 350%;
+        border: 1px solid black;
+        padding: 5px;
+    }
+
+    .heading h1:hover{
+        background-color: cornsilk;
+        color:black;
+    }
+
+    .content{
+        display: flex;
+        background-color: cornsilk;
+        flex-flow: row wrap;
+    }
+
+    .content h2{
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .left{
+        width: 25%;
+        margin: 20px 60px 0px 150px;
+        font-size: 120%;
+    }
+
+    #ingredients{
+        background-color: wheat;
+        padding: 5px 0px;
+        border-radius: 5px;
+    }
+
+    #steps{
+        background-color: wheat;
+        margin-top: 10px;    
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    #image{
+        margin-top:10px;
+    }
+
+    #image img{
+        width:100%;
+        height: 300px;
+    }
+
+    .blog-high{
+        width: 34%;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 20px;
+    }
+
+    .blog{
+        background-color: wheat;
+        font-size: 120%;
+        border-radius: 5px;
+        padding: 0.5px 15px;
+    }
+
+    .high{
+        background-color: wheat;
+        font-size: 120%;
+        border-radius: 5px;
+        margin-top: 10px;
+        padding: 0.5px 15px;
+    }
+
+    .done{
+        text-align: center;
+        font-weight: bolder;
+        font-size: 120%;
+    }
+}
